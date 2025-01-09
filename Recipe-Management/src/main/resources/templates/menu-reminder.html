@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Meal Preparation Reminder</title>
+</head>
+<body>
+<h2>Hello, <span th:text="${username}"></span>!</h2>
+<p>
+    This is a friendly reminder for your scheduled menu: <strong th:text="${menuName}"></strong>.
+    <br>
+    The meal is scheduled for: <strong th:text="${scheduledAt}"></strong>.
+</p>
+<p>Please make sure you have all the ingredients ready to cook your meal!</p>
+<br>
+<p>Best regards,<br>Recipe Management System</p>
+</body>
+</html>

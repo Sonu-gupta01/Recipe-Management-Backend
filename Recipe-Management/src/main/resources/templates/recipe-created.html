@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Recipe Created Successfully</title>
+</head>
+<body>
+<h2>Congratulations, <span th:text="${username}"></span>!</h2>
+<p>
+    You have successfully created a new recipe: <strong th:text="${recipeTitle}"></strong>.
+</p>
+<p>
+    <strong>Description:</strong> <span th:text="${description}"></span><br>
+    <strong>Preparation Time:</strong> <span th:text="${prepTime}"></span> minutes
+</p>
+<p>
+    We're excited to see more delicious recipes from you!
+</p>
+<br>
+<p>Best regards,<br>Recipe Management System</p>
+</body>
+</html>
